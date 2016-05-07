@@ -27,7 +27,7 @@ a, label {
 	color: #edecec;
 }
 
-.container {
+#header .container {
 	width: 900px;
 	height: 60px;
 	margin-left: 50px;
@@ -77,4 +77,102 @@ input[type="radio"] {
 
 .activ-lang label {
 	background-color: #00afce;
+}
+
+#second-page {
+	width: 1000px;
+	margin: auto;
+}
+
+.logo-instructions {
+	margin: 44px 0 64px 315px;
+}
+
+.instructions {
+	width: 820px;
+	height: 246px;
+	margin-left: 180px;
+}
+
+.colon-1 {
+	line-height: 55px;
+}
+
+.colon-2 {
+	line-height: 54px;
+}
+
+.colon-1 > img, .colon-2 > img {
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.info-block-1 {
+	height: 45px;
+}
+
+.info-block-2, .info-block-3 {
+	height: 46px;
+}
+
+.ellipse {
+	width: 80px;
+	height: 100%;
+	float: left;
+}
+
+.text {
+	width: 386px;
+	line-height: 45px;
+	float: left;
+}
+
+.text p {
+	font-family: 'OpenSans', 'Open Sans';
+	color: #353535;
+	font-size: 16px;
+}
+
+.text span {
+	color: #00afce;
+	text-transform: uppercase;
+}
+
+.info-block-1 .icon img {
+	margin-left: 5px;
+}
+
+.info-block-2 .icon img {
+	margin-left: 12px;
+}
+
+.app-google {
+	height: 111px;
+	line-height: 111px;
+	text-align: center;
+}
+
+.app-google .app {
+	margin-right: 105px;
+}
+
+.app-google img {
+	vertical-align: bottom;
+}
+
+.about-us-block {
+	margin-top: 64px;
+	height: 155px;
+	background: #3f3f3f;
+}
+
+.about-us-block p {
+	padding-top: 30px;
+	line-height: 21px;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	color: #ebebeb;
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-size: 18px;
 }
