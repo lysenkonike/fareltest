@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300);
 
 ol, ul {
 	list-style: none;
@@ -14,20 +15,25 @@ a, a:hover {
 	outline: none;
 }
 
-#header {
+#wrapper {
 	width: 1000px;
-	height: 60px;
 	margin: 0 auto;
+	background-color: #f3f3f3;
+}
+
+#header {
+	width: 100%;
+	height: 60px;
 	background-color: #3f3f3f;
 }
 
 a, label {
 	font-size: 15px;
-	font-family: 'OpenSans-Light', sans-serif;
+	font-family: 'OpenSans-Light', 'Open Sans';
 	color: #edecec;
 }
 
-.container {
+#header .container {
 	width: 900px;
 	height: 60px;
 	margin-left: 50px;
@@ -62,7 +68,7 @@ a, label {
 	padding-bottom: 5px;
 }
 
-input[type="radio"] {
+.radio-lang {
 	display: none;
 }
 
@@ -70,11 +76,47 @@ input[type="radio"] {
 	float: right;
 	width: 26px;
 	line-height: 26px;
-	margin: 17px 0 17px 15px;
+	margin: 17px 0 17px 12px;
 	text-align: center;
 	cursor: pointer;
 }
 
 .activ-lang label {
 	background-color: #00afce;
+}
+
+#title-page .container {
+	height: 708px;
+	text-align: center;
+}
+
+.caption-block {
+	width: 1000px;
+	height: 160px;
+	display: table;
+	font-family: 'Exo2-Light', 'Exo 2';
+}
+
+.caption {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.caption h1 {
+	font-weight: normal;
+	font-size: 31px;
+	color: #363636;
+	text-transform: uppercase;
+}
+
+ .caption p {
+ 	margin-top: 5px;
+ 	margin-left: 50px;
+	font-size: 20px;
+	color: #6c6c6c;
+}
+
+.scroll-img {
+	cursor: pointer;
+	margin-top: 50px;
 }
