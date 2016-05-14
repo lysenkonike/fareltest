@@ -124,7 +124,6 @@ a, label {
 
 #second-page {
 	width: 1000px;
-	height: 832px;
 	margin: auto;
 }
 
@@ -286,33 +285,58 @@ a, label {
 	float: left;
 }
 
-.app button {
+.qr-app {
+	float: left;
+	margin-top: 64px;
+	margin-left: 245px;
+	margin-right: 20px;
+}
+
+.qr-google {
+	float: right;
+	margin-top: 64px;
+	margin-right: 245px;
+	margin-left: 20px;
+}
+
+.button-app, .button-google {
+	margin-top: 61px;
 	width: 135px;
 	height: 48px;
 	border: 1px solid #00afce;
 	border-radius: 3px;
-	color: #00afce;
-	font-size: 15px;
 }
 
-.app a, .google a {
-	display: block;
-	width: 135px;
-	height: 48px;
-	border: 1px solid #00afce;
-	border-radius: 3px;
-	font-size: 15px;
-	color: #00afce;
+.right {
+	float: right;
 }
 
-.app img, .google img {
+.left {
+	float: left;
+}
+
+.button-app img {
 	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.button-google img {
+	width: 28px;
+	margin-top: 10px;
+	margin-right: 10px;
 	margin-left: 10px;
 }
 
-.google img {
-	width: 26px;
+.button-app p, .button-google p {
+	font-size: 15px;
+	color: #00afce;
+	line-height: 48px;
+	text-align: center;
+	font-family: 'OpenSans', 'Open Sans'
 }
-
+.button-app *, .button-google * {
+	float: left;
+}
 
 
