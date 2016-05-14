@@ -273,3 +273,46 @@ a, label {
 .icons .phone-plane {
 	margin-top: -8px;
 }
+
+.app-google {
+	float: left;
+	width: 100%;
+	height: 111px;
+}
+
+.app, .google {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.app button {
+	width: 135px;
+	height: 48px;
+	border: 1px solid #00afce;
+	border-radius: 3px;
+	color: #00afce;
+	font-size: 15px;
+}
+
+.app a, .google a {
+	display: block;
+	width: 135px;
+	height: 48px;
+	border: 1px solid #00afce;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #00afce;
+}
+
+.app img, .google img {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.google img {
+	width: 26px;
+}
+
+
+
