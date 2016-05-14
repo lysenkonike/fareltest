@@ -205,7 +205,8 @@ a, label {
 .info {
 	color: #1B1B1B;
 	font-size: 16px;
-	font-family: 'OpenSans', 'Open Sans';
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-weight: 400;
 	width: 48%;
 }
 
@@ -274,33 +275,26 @@ a, label {
 }
 
 .app-google {
-	float: left;
 	width: 100%;
-	height: 111px;
+	height: 50px;
 }
 
 .app, .google {
 	width: 50%;
 	height: 100%;
-	float: left;
+	padding-top: 61px;
 }
 
 .qr-app {
-	float: left;
-	margin-top: 64px;
-	margin-left: 245px;
-	margin-right: 20px;
+	margin: 0 20px 0 245px;
 }
 
 .qr-google {
-	float: right;
-	margin-top: 64px;
-	margin-right: 245px;
-	margin-left: 20px;
+	margin: 0 245px 0 20px;
 }
 
 .button-app, .button-google {
-	margin-top: 61px;
+	cursor: pointer;
 	width: 135px;
 	height: 48px;
 	border: 1px solid #00afce;
@@ -316,16 +310,12 @@ a, label {
 }
 
 .button-app img {
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 15px;
+	margin: 10px 15px 0 10px;
 }
 
 .button-google img {
 	width: 28px;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 10px 10px 0 10px;
 }
 
 .button-app p, .button-google p {
@@ -333,10 +323,11 @@ a, label {
 	color: #00afce;
 	line-height: 48px;
 	text-align: center;
-	font-family: 'OpenSans', 'Open Sans'
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-weight: 600;
 }
+
 .button-app *, .button-google * {
 	float: left;
 }
-
 
