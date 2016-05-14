@@ -276,24 +276,25 @@ a, label {
 
 .app-google {
 	width: 100%;
-	height: 50px;
+	height: 111px;
 }
 
 .app, .google {
 	width: 50%;
 	height: 100%;
-	padding-top: 61px;
+	/*padding-top: 61px;*/
 }
 
 .qr-app {
-	margin: 0 20px 0 245px;
+	margin: 63px 20px 0 245px;
 }
 
 .qr-google {
-	margin: 0 245px 0 20px;
+	margin: 63px 245px 0 20px;
 }
 
 .button-app, .button-google {
+	margin-top: 61px;
 	cursor: pointer;
 	width: 135px;
 	height: 48px;
@@ -330,4 +331,24 @@ a, label {
 .button-app *, .button-google * {
 	float: left;
 }
+
+.about-us {
+	margin-top: 64px;
+	width: 100%;
+	height: 155px;
+	background-color: #3F3F3F;
+}
+
+.tekrum {
+	padding-top: 25px;
+	margin: 0 auto;
+	width: 800px;
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+	/*word-wrap: break-all;*/
+	overflow-wrap: break-word;
+}
+
 
