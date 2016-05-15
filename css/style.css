@@ -276,24 +276,24 @@ a, label {
 
 .app-google {
 	width: 100%;
-	height: 50px;
+	height: 111px;
 }
 
 .app, .google {
 	width: 50%;
 	height: 100%;
-	padding-top: 61px;
 }
 
 .qr-app {
-	margin: 0 20px 0 245px;
+	margin: 63px 20px 0 245px;
 }
 
 .qr-google {
-	margin: 0 245px 0 20px;
+	margin: 63px 245px 0 20px;
 }
 
 .button-app, .button-google {
+	margin-top: 61px;
 	cursor: pointer;
 	width: 135px;
 	height: 48px;
@@ -329,5 +329,99 @@ a, label {
 
 .button-app *, .button-google * {
 	float: left;
+}
+
+.about-us {
+	margin-top: 64px;
+	width: 100%;
+	height: 155px;
+	background-color: #3F3F3F;
+}
+
+.tekrum {
+	padding-top: 25px;
+	margin: 0 auto;
+	width: 800px;
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+}
+
+.partners {
+	width: 100%;
+	height: 528px;
+}
+
+.partners h1 {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: #363636;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Exo2-Light', 'Exo 2';
+	font-size: 28px;
+}
+
+.first-row {
+	width: 100%;
+	height: 78px;
+	margin-top: 74px;
+}
+
+.second-row {
+	width: 100%;
+	height: 141px;
+	margin-top: 96px;
+}
+
+.company-logo {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.first-row .company-logo {
+	line-height: 78px;
+}
+
+.second-row .company-logo {
+	line-height: 141px;
+}
+
+.ikea {
+	margin-left: 100px;
+}
+
+.nat-geogr {
+	margin-top: 2px;
+}
+
+.loreal {
+	vertical-align: middle;
+	margin-right: 100px;
+}
+
+.volkswagen {
+	margin-left: 132px;
+}
+
+.esquire {
+	vertical-align: middle;
+}
+
+.invercasa {
+	margin-right: 110px;
+	margin-top: -3px;
 }
 
