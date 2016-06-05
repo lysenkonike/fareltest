@@ -85,33 +85,38 @@ a, label {
 	background-color: #00afce;
 }
 
-#title-text .container {
+#title-page .container {
 	height: 708px;
 	text-align: center;
 }
 
-.caption {
+.caption-block {
 	width: 1000px;
 	height: 160px;
 	display: table;
 	font-family: 'Exo2-Light', 'Exo 2';
 }
 
-.cap {
+.caption {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.first-cap {
+.caption h1 {
 	font-weight: normal;
 	font-size: 31px;
 	color: #363636;
 	text-transform: uppercase;
 }
 
- .second-cap {
+ .caption p {
  	margin-top: 5px;
  	margin-left: 50px;
 	font-size: 20px;
 	color: #6c6c6c;
+}
+
+.scroll-img {
+	cursor: pointer;
+	margin-top: 50px;
 }
