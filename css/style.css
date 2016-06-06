@@ -105,7 +105,7 @@ input[type="radio"] {
 
 .colon-1 > img, .colon-2 > img {
 	vertical-align: middle;
-	margin-left: 16px;
+	margin-left: 20px;
 }
 
 .info-block-1 {
@@ -123,7 +123,7 @@ input[type="radio"] {
 }
 
 .text {
-	width: 390px;
+	width: 386px;
 	line-height: 45px;
 	float: left;
 }
@@ -141,4 +141,12 @@ input[type="radio"] {
 
 .icon {
 	height: 100%;
+}
+
+.info-block-1 .icon img {
+	margin-left: 5px;
+}
+
+.info-block-2 .icon img {
+	margin-left: 12px;
 }
