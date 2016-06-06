@@ -1,128 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>fareltask</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>fareltask</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </head>
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<div class="container">
-				<div class="logo">
-					<img src="img/logo.png">
-				</div>
-				<ul class="nav">
-					<li class="active-nav"><a href="#">Что мы делаем?</a></li>
-					<li><a href="#">Использование</a></li>
-					<li><a href="#">Как это работает</a></li>
-					<li><a href="#">Блог</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
-				<ul class="lang">
-					<li class="activ-lang"><input class="radio-lang" type="radio" name="lang" id="ru" checked="checked"><label for="ru">RU</label></li>
-					<li><input class="radio-lang" type="radio" name="lang" id="en"><label for="en">EN</label></li>
-				</ul>
-			</div>
-		</div>
-		<div id="title-page">
-			<div class="container">
-				<div class="caption-block">
-					<div class="caption">
-						<h1>Студия дополненной и виртуальной реальности</h1>
-						<p>мы видим то, что Вам даже не снилось</p>
-					</div>
-				</div>
-				<img class="eye-img" src="img/eye.png"><br>
-				<img  class="scroll-img" src="img/scroll.png">
-			</div>
-		</div>
-		<div id="second-page">
-			<div class="container">
-				<div class="logo-farel">
-					<img src="img/logo.png">
-					<div class="corner corner-top-left"></div>
-					<div class="corner corner-top-right"></div>
-					<div class="corner corner-bottom-left"></div>
-					<div class="corner corner-bottom-right"></div>
-				</div>
-				<div class="instructions">
-					<div class="first-line">
-						<div class="num-block">
-							<p class="num">1</p>
-						</div>
-						<p class="info info-1">Скачайте и установите приложение<a href="#">Farel</a></p>
-						<div class="icons">
-							<a class="app-store" href="#"><img src="img/macAppStore.png"></a>
-							<a class="google-play" href="#"><img src="img/googlePlay.png" alt=""></a>
-						</div>
-					</div>
-					<div class="second-line">
-						<div class="spot"></div>
-						<div class="spot"></div>
-					</div>
-					<div class="third-line">
-						<div class="num-block">
-							<p class="num">2</p>
-						</div>
-						<p class="info info-2">Наведите камеру на наш логотип</p>
-						<div class="icons">
-							<img class="phone" src="img/phone.png">
-							<span>+</span>
-							<img class="info-logo" src="img/logo.png">
-						</div>
-					</div>
-					<div class="fourth-line">
-						<div class="spot"></div>
-						<div class="spot"></div>
-					</div>
-					<div class="fifth-line">
-						<div class="num-block">
-							<p class="num">3</p>
-						</div>
-						<p class="info info-3">Изучайте мир дополненной реальности!</p>
-						<div class="icons">
-							<img class="phone-plane" src="img/phone-plane.png">
-						</div>
-					</div>
-				</div>
-				<div class="app-google">
-					<div class="app left">
-						<img class="qr-app left" src="img/qr-code.png" alt="">
-						<div class="button-app left">
-							<img src="img/apple.png" alt="">
-							<p>App Store</p>
-						</div>
-					</div>
-					<div class="google left">
-						<img class="qr-google right" src="img/qr-code.png" alt="">
-						<div class="button-google right">
-							<img src="img/googlePlay.png" alt="">
-							<p>Google play</p>
-						</div>
-					</div>
-				</div>
-				<div class="about-us">
-					<p class="tekrum">
-						Tekrum - это креативная и высокопрофессиональная команда программистов, дизайнеров, аккаунт менеджеров, тестировщиков, которая занимается разработкой web-приложений, сервисов для онлайн-коммерции, а также товарной деятельностью в рамках наших прое&shyктов. Мы предлагаем инновационные ИТ-решения для клиентов всего мира.
-					</p>
-				</div>
-				<div class="partners">
-					<h1>Использование дополненной реальности мировыми компаниями</h1>
-					<div class="first-row">
-						<div class="company-logo
-						"><img class="ikea" src="img/ikea.png"></div>
-						<div class="company-logo center"><img class="nat-geogr" src="img/nat-geogr.png"></div>
-						<div class="company-logo right"><img class="loreal" src="img/loreal.png"></div>
-					</div>
-					<div class="second-row">
-						<div class="company-logo"><img class="volkswagen" src="img/volkswagen.png"></div>
-						<div class="company-logo center"><img class="esquire" src="img/esquire.png"></div>
-						<div class="company-logo right"><img class="invercasa" src="img/invercasa.png"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div id="wrapper">
+        <div id="menu" class="fixed">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <ul class="nav">
+                    <li class="active-nav"><a class="go-to" href="#title-page">Что мы делаем?</a></li>
+                    <li><a class="go-to" href="#second-page">Использование</a></li>
+                    <li><a href="#">Как это работает</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a class="go-to" href="#contacts">Контакты</a></li>
+                </ul>
+                <ul class="lang">
+                    <li class="activ-lang">
+                        <input class="radio-lang" type="radio" name="lang" id="ru" checked="checked"><label for="ru">RU</label>
+                    </li>
+                    <li>
+                        <input class="radio-lang" type="radio" name="lang" id="en"><label for="en">EN</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="title-page">
+            <div class="container">
+                <div class="caption-block">
+                    <div class="caption">
+                        <h1>Студия дополненной и виртуальной реальности</h1>
+                        <p>мы видим то, что Вам даже не снилось</p>
+                    </div>
+                </div>
+                <img class="eye-img" src="img/eye.png"><br>
+                <img  class="scroll-img" src="img/scroll.png">
+            </div>
+        </div>
+        <div id="second-page">
+            <div class="container">
+                <div class="logo-farel">
+                    <img src="img/logo.png">
+                    <div class="corner corner-top-left"></div>
+                    <div class="corner corner-top-right"></div>
+                    <div class="corner corner-bottom-left"></div>
+                    <div class="corner corner-bottom-right"></div>
+                </div>
+                <div class="instructions">
+                    <div class="first-line">
+                        <div class="num-block">
+                            <p class="num">1</p>
+                        </div>
+                        <p class="info info-1">Скачайте и установите приложение<a id="farel-link" href="#">Farel</a></p>
+                        <div class="icons">
+                            <a class="app-store" href="#"><img src="img/macAppStore.png"></a>
+                            <a class="google-play" href="#"><img src="img/googlePlay.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="second-line">
+                        <div class="spot"></div>
+                        <div class="spot"></div>
+                    </div>
+                    <div class="third-line">
+                        <div class="num-block">
+                            <p class="num">2</p>
+                        </div>
+                        <p class="info info-2">Наведите камеру на наш логотип</p>
+                        <div class="icons">
+                            <img class="phone" src="img/phone.png">
+                            <span>+</span>
+                            <img class="info-logo" src="img/logo.png">
+                        </div>
+                    </div>
+                    <div class="fourth-line">
+                        <div class="spot"></div>
+                        <div class="spot"></div>
+                    </div>
+                    <div class="fifth-line">
+                        <div class="num-block">
+                            <p class="num">3</p>
+                        </div>
+                        <p class="info info-3">Изучайте мир дополненной реальности!</p>
+                        <div class="icons">
+                            <img class="phone-plane" src="img/phone-plane.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="app-google">
+                    <div class="app left">
+                        <img class="qr-app left" src="img/qr-code.png" alt="">
+                        <div class="button-app left">
+                            <img src="img/apple.png" alt="">
+                            <p>App Store</p>
+                        </div>
+                    </div>
+                    <div class="google left">
+                        <img class="qr-google right" src="img/qr-code.png" alt="">
+                        <div class="button-google right">
+                            <img src="img/googlePlay.png" alt="">
+                            <p>Google play</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tekrum-info">
+            <div class="about-us">
+                <p class="tekrum">
+                    Tekrum - это креативная и высокопрофессиональная команда программистов, дизайнеров, аккаунт менеджеров, тестировщиков, которая занимается разработкой web-приложений, сервисов для онлайн-коммерции, а также товарной деятельностью в рамках наших прое&shyктов. Мы предлагаем инновационные ИТ-решения для клиентов всего мира.
+                </p>
+            </div>
+        </div>
+        <div id="partners">
+            <div class="container">
+                <h2>Использование дополненной реальности мировыми компаниями</h2>
+                <div class="first-row">
+                    <div class="company-logo
+                    "><img class="ikea" src="img/ikea.png"></div>
+                    <div class="company-logo center"><img class="nat-geogr" src="img/nat-geogr.png"></div>
+                    <div class="company-logo right"><img class="loreal" src="img/loreal.png"></div>
+                </div>
+                <div class="second-row">
+                    <div class="company-logo"><img class="volkswagen" src="img/volkswagen.png"></div>
+                    <div class="company-logo center"><img class="esquire" src="img/esquire.png"></div>
+                    <div class="company-logo right"><img class="invercasa" src="img/invercasa.png"></div>
+                </div>
+            </div>
+        </div>
+        <div id="contacts" class="contacts-block">
+            <div class="container">
+                <h2>Мы всегда на связи</h2>
+                <div class="contacts left">
+                    <label id="contact-caption">Контакты</label>
+                    <div class="contact">
+                        <img class="mail" src="img/mail.png" alt="mail">
+                        <span class="contact-span">mail@gmail.com</span>
+                    </div>
+                    <div class="contact">
+                        <img class="handset" src="img/handset.png" alt="handset">
+                        <span class="contact-span">0444354356</span>
+                    </div>
+                    <div class="contact">
+                        <img class="address" src="img/address.png" alt="address">
+                        <span class="contact-span">г.Киев, ул. Константиновская 73</span>
+                    </div>
+                </div>
+                <div class="social-net left">
+                    <label id="social-net-caption">Соц. сети</label>
+                    <a class="facebook-link" href="#">
+                        <i></i>
+                        <span>userName</span>
+                    </a>
+                    <a href="#" class="twitter-link">
+                        <i></i>
+                        <span>userName</span>
+                    </a>
+                    <a href="#" class="instagram-link">
+                        <i></i>
+                        <span>userName</span>
+                    </a>
+                </div>
+                <form name="feedback" class="feedback left">
+                    <label id="feedback-caption">Обратная связь:</label>
+                    <input type="text" name="user" id="name-input" required placeholder="Имя">
+                    <input type="email" name="email" id="email-input" required placeholder="Почта">
+                    <input type="tel" name="tel" id="tel-input" required placeholder="Телефон">
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div id="map" style='overflow:hidden;'>
+            <div id='gmap_canvas' class="map"></div>
+        </div>
+    </div>
+    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBxgwsrZQcG5lXJbqxObPwAOJogK65tCjU'></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
