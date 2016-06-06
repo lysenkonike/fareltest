@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 ol, ul {
 	list-style: none;
@@ -159,4 +158,21 @@ input[type="radio"] {
 
 .app-google img {
 	vertical-align: bottom;
+}
+
+.about-us-block {
+	margin-top: 64px;
+	height: 155px;
+	background: #3f3f3f;
+}
+
+.about-us-block p {
+	padding-top: 30px;
+	line-height: 21px;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	color: #ebebeb;
+	font-family: 'OpenSans-Light', 'Open Sans';
+	font-size: 18px;
 }
