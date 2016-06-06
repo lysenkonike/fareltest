@@ -139,14 +139,24 @@ input[type="radio"] {
 	text-transform: uppercase;
 }
 
-.icon {
-	height: 100%;
-}
-
 .info-block-1 .icon img {
 	margin-left: 5px;
 }
 
 .info-block-2 .icon img {
 	margin-left: 12px;
+}
+
+.app-google {
+	height: 111px;
+	line-height: 111px;
+	text-align: center;
+}
+
+.app-google .app {
+	margin-right: 105px;
+}
+
+.app-google img {
+	vertical-align: bottom;
 }
