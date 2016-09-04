@@ -55,9 +55,10 @@ a, label, .contact span {
 }
 
 .fixed {
-    position:fixed;
-    top:0; left:0;
-    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 10000;
 }
 
@@ -335,7 +336,6 @@ a, label, .contact span {
     line-height: 48px;
     text-align: center;
     font-family: 'OpenSans-Light', 'Open Sans';
-    font-weight: 600;
 }
 
 .button-app *, .button-google * {
